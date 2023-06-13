@@ -2,8 +2,8 @@ import cv2
 import os
 import imutils
 
-personName = 'kevin'
-dataPath = 'C:/Users/toyzr/OneDrive/Documents/SchoolStuff/Semestre8/AprendizajeProfundo/RedesNeuronales/DatosEntrenamiento/Data'
+personName = 'kevin' #Una vez que corra el programa, cambiar el nombre al de la otra persona para generar otra carpeta con las otras fotos
+dataPath = 'C:/Users/toyzr/OneDrive/Documents/SchoolStuff/Semestre8/AprendizajeProfundo/RedesNeuronales/DatosEntrenamiento/Data' #Cambiar la ruta a done tenemos la carpeta Data
 personPath = dataPath + '/' + personName
 
 if not os.path.exists(personPath):
